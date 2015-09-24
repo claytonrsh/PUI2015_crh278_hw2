@@ -39,8 +39,8 @@ if __name__ == '__main__':
             busLon = buses['VehicleActivity'][bus][
                 'MonitoredVehicleJourney']['VehicleLocation']['Longitude']
             # check if OnwardCalls exists
-            if 'OnwardCalls' in buses['VehicleActivity'][bus][
-                    'MonitoredVehicleJourney']:
+            if 'OnwardCall' in buses['VehicleActivity'][bus][
+                    'MonitoredVehicleJourney']['OnwardCalls']:
                 stopName = buses['VehicleActivity'][bus][
                     'MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][
                     0]['StopPointName']
