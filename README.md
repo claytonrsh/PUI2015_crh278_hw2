@@ -2,10 +2,10 @@
 
 ### assignment 1
 uses additional packages
-..* pandas
-..* urllib2
++ pandas
++ urllib2
 
 ### assignment 2
 uses additional packages
-..* pandas
-..* urllib2
++ pandas
++ urllib2
